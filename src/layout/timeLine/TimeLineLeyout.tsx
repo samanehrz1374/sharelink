@@ -1,8 +1,9 @@
 import React from "react";
+import { Outlet } from "react-router-dom";
 
 const TimeLineLayout = () => {
     return (
-      <div>TimeLineLayout</div>
+      <Outlet />
     )
   }
   
